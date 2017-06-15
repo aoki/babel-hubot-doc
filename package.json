@@ -1,0 +1,37 @@
+{
+  "name": "babel-hubot-doc",
+  "version": "1.0.0",
+  "description": "",
+  "main": "lib",
+  "files": [
+    "lib"
+  ],
+  "scripts": {
+    "start": "mocha --bail --watch",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ringohub/babel-hubot-doc.git"
+  },
+  "keywords": [
+    "babel",
+    "hubot",
+    "plugin"
+  ],
+  "author": "Yoshiki Aoki",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ringohub/babel-hubot-doc/issues"
+  },
+  "homepage": "https://github.com/ringohub/babel-hubot-doc#readme",
+  "devDependencies": {
+    "babel-core": "6.7.4",
+    "mocha": "2.4.5",
+    "power-assert": "1.3.1"
+  },
+  "dependencies": {
+    "babel-cli": "6.6.5",
+    "babel-preset-es2015": "6.6.0"
+  }
+}
